@@ -62,7 +62,7 @@ class PolynomialTest {
         System.out.println("Polinomio de entrada: " + pol1.toString());
         assertEquals(8, pol1.getCoefficient(3));
         assertEquals(0, pol1.getCoefficient(456546));
-        assertEquals(-6, pol1.getCoefficient(1));
+        assertEquals(5, pol1.getCoefficient(1));
     }
 
 
